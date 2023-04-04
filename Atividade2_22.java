@@ -17,7 +17,7 @@ public class Atividade2_22 {
         double preco = 0;
         
         if (sabor == 'C') {
-            if (numBolas > 3) {
+            if (numBolas >= 3) {
                 preco = 2.5 * numBolas * 0.9;
                 System.out.println("Desconto de 10% aplicado!");
             } else {
